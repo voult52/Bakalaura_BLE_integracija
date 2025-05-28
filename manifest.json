@@ -1,0 +1,11 @@
+{
+  "domain": "ble_node",
+  "name": "BLE SensorNode",
+  "version": "1.0.0",
+  "documentation": "https://github.com/your/repo",
+  "requirements": ["bleak>=0.22.3,<0.23"],
+  "config_flow": true,
+  "codeowners": ["@yourhandle"],
+  "iot_class": "local_poll",
+  "platforms": ["sensor", "binary_sensor"]
+}
